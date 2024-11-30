@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media App</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo"><strong>Skill Buddy</strong></div>
+        <div class="nav-items">
+            <strong>
+            <a target="_self" href="mainpage.html">Home</a>
+            <a href="#">My Skills</a>
+            <a href="#">My Projects</a>
+            <a href="#">Partners</a></strong>
+        </div>
+    </header>
+    <div class="app-container">
+        <!-- Post Input Section -->
+        <div class="post-input-section">
+          <input type="text" id="usernameInput" placeholder="Enter your username">
+          <textarea id="postInput" placeholder="What's on your mind?"></textarea>
+          <input type="file" id="imageInput" accept="image/*">
+          <button id="postButton">Post</button>
+        </div>
+    
+        <!-- Feed Section -->
+        <div class="feed-section" id="feed">
+          <!-- Posts will dynamically appear here -->
+        </div>
+      </div>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
