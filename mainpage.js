@@ -32,8 +32,7 @@ postButton.addEventListener('click', () => {
       <div class="content">${postText}</div>
       <div class="actions">
         <span class="like">❤️ Like</span>
-        <span class="comment">💬 Comment</span>
-        <span class="share">➡️ Share</span>
+         
       </div>
     `;
 
