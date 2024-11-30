@@ -29,14 +29,14 @@ body {
 
 .profile-header {
     width: 80%;
-    background: white;
+    background: none;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
 }
 
 .background {
     height: 100px;
-    background: #48f7c8;
+    background: none;
 }
 
 .profile-details {
@@ -74,7 +74,7 @@ body {
 .right-panel {
     width: 80%;
     margin-top: 20px;
-    background: #48f7c8;
+    background: none;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0);
 }
