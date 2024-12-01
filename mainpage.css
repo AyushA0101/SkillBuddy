@@ -78,11 +78,13 @@ header nav a:hover {
 .sidebar .myprofile {
     margin-top: 10px;
     padding: 10px;
+    font-weight: 800;
     background-color: var(--green);
     color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .app-container {
